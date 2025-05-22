@@ -1,0 +1,43 @@
+/* Nollställer marginaler och fyller hela fönstret */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    font-size: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Wrapper för att hålla rutorna */
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  /* Själva rutorna */
+  .box {
+    width: 300px;
+    height: 600x;
+    background-color: #4a90e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 300px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    
+  }
+  
+  
+  .box:hover {
+    transform: scale(1.05);
+    background-color: #357ab8;
+  }
+  
+  
